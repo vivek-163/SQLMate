@@ -1,0 +1,23 @@
+streamlit==1.32.2
+fastapi==0.110.1
+uvicorn==0.29.0
+
+mysql-connector-python==8.3.0
+sqlalchemy==2.0.29
+sqlite3-binary==0.0.1  # For sqlite3 if used explicitly, even though it's part of stdlib, some systems need this
+
+bcrypt==4.1.2
+python-jose==3.3.0  # For JWT, commonly used with FastAPI
+PyJWT==2.8.0
+
+pydantic==1.10.15  # You can switch to >=2.x if you're fully using v2
+python-dotenv==1.0.1
+
+langchain==0.1.14
+langchain-community==0.0.31
+langchain-core==0.1.37
+langchain-groq==0.0.6  # for `from langchain_groq import ChatGroq`
+
+pandas==2.2.1
+requests==2.31.0
+ 
