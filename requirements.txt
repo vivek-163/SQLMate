@@ -1,0 +1,23 @@
+streamlit
+fastapi
+uvicorn
+
+mysql-connector-python
+sqlalchemy
+sqlite3-binary # For sqlite3 if used explicitly, even though it's part of stdlib, some systems need this
+
+bcrypt
+python-jose  # For JWT, commonly used with FastAPI
+PyJWT
+
+pydantic  # You can switch to >=2.x if you're fully using v2
+python-dotenv
+
+langchain
+langchain-community
+langchain-core
+langchain-groq  # for `from langchain_groq import ChatGroq`
+
+pandas
+requests
+ 
