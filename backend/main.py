@@ -3,6 +3,12 @@ from backend.auth import auth_router  # Import authentication routes
 import mysql.connector
 from pydantic import BaseModel
 
+from sqlalchemy import create_engine
+import os
+
+DATABASE_URL = os.getenv("DB_URL")
+engine = create_engine(DATABASE_URL)
+
 # FastAPI app
 app = FastAPI()
 
