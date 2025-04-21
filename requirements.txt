@@ -4,7 +4,7 @@ uvicorn
 
 mysql-connector-python
 sqlalchemy
-sqlite3-binary # For sqlite3 if used explicitly, even though it's part of stdlib, some systems need this
+sqlite3 # For sqlite3 if used explicitly, even though it's part of stdlib, some systems need this
 
 bcrypt
 python-jose  # For JWT, commonly used with FastAPI
